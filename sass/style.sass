@@ -1,0 +1,77 @@
+*
+    box-sizing: border-box
+
+
+body
+    margin: 0
+    background-image: url('/img/background.jpg')
+    background-size: cover
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-position: center top
+    background-clip: border-box    
+.container
+    max-width: 1170px
+    width: 95%
+    margin: auto
+
+
+.header
+    &-block
+        display: flex
+        justify-content: space-between
+    &__logo
+        img
+            width: 140px
+            height: 140px
+            margin-top: -45px
+            margin-left: -20px
+    &__navbar
+        margin-top: 10px
+        a
+            color: #fff
+            text-decoration: none
+            border-left: 1px solid white
+            font-size: 20px
+            padding: 20px
+            cursor: pointer
+            &:hover
+                background-color: lighten(#5fa6e9, 15%)
+                transition: .3s
+    
+
+.section
+    &-about
+        background-color: rgba(54, 51, 51, 0.48)
+
+.about
+    &-block
+        display: flex
+    &-text
+        flex-basis: 50%
+    &__title
+            font-size: 28px
+            color: #fff
+    &__subtitle
+            font-size: 24px
+            color: #fff
+    &-image
+        display: flex
+        position: sticky
+        img
+            max-width: 100%
+            width: 375px
+            border: 3px solid white
+            
+
+
+
+.slider
+    background-color: rgba(54, 51, 51, 0.48)
+    &__item
+        
+        img
+            max-width: 400px
+            margin: auto
+            border: 5px solid grey
+        
