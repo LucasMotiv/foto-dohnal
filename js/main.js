@@ -6,3 +6,9 @@ $(document).ready(function(){
         nextArrow: $('.arrows__right')
     });
 })
+
+$(".header__menu").click(function() {
+    $(".header__menu").toggleClass("active");
+    $(".header__navbar").toggleClass("active");
+    });
+    
