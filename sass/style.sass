@@ -225,6 +225,8 @@ body
 .contacts
     &-wrap
         display: flex
+        @media (max-width: 640px)
+            display: block
     &__title
         display: block
         font-size: 28px
@@ -233,6 +235,8 @@ body
             font-size: 24px
         @media (max-width: 768px)
             font-size: 22px
+        @media (max-width: 640px)
+            text-align: center
     &__email
         display: flex
         text-decoration: none
@@ -243,6 +247,9 @@ body
             font-size: 26px
         @media (max-width: 768px)
             font-size: 24px
+        @media (max-width: 640px)
+            margin-top: 30px
+            justify-content: center
         &:hover
             text-decoration: underline
     &__instagram
@@ -253,3 +260,6 @@ body
                 width: 50%
             @media (max-width: 768px)
                 width: 50%
+            @media (max-width: 640px)
+                width: 80%
+                margin-top: 30px

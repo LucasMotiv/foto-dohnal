@@ -366,6 +366,12 @@ body {
   display: flex;
 }
 
+@media (max-width: 640px) {
+  .contacts-wrap {
+    display: block;
+  }
+}
+
 .contacts__title {
   display: block;
   font-size: 28px;
@@ -381,6 +387,12 @@ body {
 @media (max-width: 768px) {
   .contacts__title {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts__title {
+    text-align: center;
   }
 }
 
@@ -406,6 +418,15 @@ body {
   }
 }
 
+@media (max-width: 640px) {
+  .contacts__email {
+    margin-top: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .contacts__email:hover {
   text-decoration: underline;
 }
@@ -425,6 +446,13 @@ body {
 @media (max-width: 768px) {
   .contacts__instagram {
     width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts__instagram {
+    width: 80%;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
