@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceník</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-block">
+                <div class="header__logo">
+                    <img src="./img/logo-icon.png" alt="logo">
+                </div>
+                <button class="hamburger">&#9776;</button>
+                <button class="cross">&#735;</button>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html"><li>Úvod</li></a>
+                        <a href="portfolio.html"><li>Portfolio</li></a>
+                        <a href="pricing.html"><li>Ceník</li></a>
+                        <a href="contacts.html"><li>Kontakty</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-price">
+        <div class="container">
+            <div class="price-offer">
+                <div class="price__wraps">
+                    <div class="price__wrap">
+                        <h2 class="price__title">Portrét/párové focení <strong>(800 kč)</strong></h2>
+                        <span class="price__subtitle">-dostanete 10-15 upravených fotek <br>-další fotky navíc podle domluvy</span></div>
+                    <div class="price__wrap">
+                        <h2 class="price__title">Rodinné focení <strong>(1200 kč)</strong></h2>
+                        <span class="price__subtitle">-dostanete 10-15 upravených fotek <br>-další fotky navíc podle domluvy</span></div>
+                    <div class="price__wrap3">
+                        <h2 class="price__title">Rodinné oslavy <strong>(500 kč)</strong></h2>
+                        <span class="price__subtitle">-cena v závorce uvedena <br>za hodinu focení</span><br></div>    
+                </div>
+                    <!-- Trigger the Modal
+                <img id="myImg" src="img/1.jpg" alt="1" style="width:100%;max-width:300px">
+                <img id="myImg" src="img/2.jpg" alt="2" style="width:100%;max-width:300px">
+                <img id="myImg" src="img/3.jpg" alt="3" style="width:100%;max-width:300px">
+
+                 The Modal
+                <div id="myModal" class="modal">
+
+                 The Close Button
+                    <span class="close">&times;</span>
+
+                 Modal Content (The Image)
+                    <img class="modal-content" id="img01">
+                    <img class="modal-content" id="img02">
+                    <img class="modal-content" id="img03">
+                 Modal Caption (Image Text)
+                    <div id="caption"></div>
+                </div> -->
+                
+                <div id="image-viewer">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="full-image">
+                </div>
+                    
+                <div class="images">
+                    <img src="img/1.jpg" alt="1" width="150" height="200"  />
+                    <img src="img/2.jpg" alt="2" width="150" height="200"  />
+                    <img src="img/3.jpg" alt="3" width="150" height="200"  />
+                    <img src="img/4.jpg" alt="4" width="150" height="200"  />
+                  </div>
+
+
+                <span class="price__info">Měli byste zájem o jiný typ fotografií?<br> Neváhejte a napište, rád se s vámi domluvím.</span>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
